@@ -85,7 +85,11 @@ body {
   gap: 1rem;
 }
 
-.todo-item button {
+.todo-buttons {
+  height: 100%;
+}
+
+.todo-buttons button {
   border: 0;
   width: 2.5rem;
   border-radius: 1rem;
@@ -93,10 +97,14 @@ body {
   background-color: rgb(243, 243, 243);
   transition: all 0.5s;
 }
-.todo-item button:hover {
+.todo-buttons button:hover {
   font-size: 1.1rem;
 }
 
 .todo-date {
   color: rgb(159, 159, 159);
+}
+
+.todo-completed .todo-title {
+  text-decoration: line-through;
 }
